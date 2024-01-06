@@ -24,7 +24,7 @@ export const Home = () => {
               <nav className="main-nav" role="navigation">
                 <ul className="main-menu">
                   <li>
-                    <a href="#section1">About Me</a>
+                    <a href="/">About Me</a>
                   </li>
                   <li>
                     <a href="#section2">Script Writing</a>
@@ -36,7 +36,7 @@ export const Home = () => {
                     <a href="#section4">Voive Over</a>
                   </li>
                   <li>
-                    <a href="#section4">contact me</a>
+                    <a href="">contact me</a>
                   </li>
                 </ul>
               </nav>
@@ -139,27 +139,27 @@ export const Home = () => {
 
 
         <div className="right-image-post">
-        <div className="row">
-              <div className="col-md-6">
-                <div className="left-image">
-                  <img src="assets/images/left-image.jpg" alt="" />
+          <div className="row">
+            <div className="col-md-6">
+              <div className="left-image">
+                <img src="assets/images/left-image.jpg" alt="" />
+              </div>
+            </div>
+            <div className="col-md-6">
+              <div className="right-text">
+                <h4>Voice over</h4>
+                <p>
+                  Donec tristique feugiat lacus, at sollicitudin nunc euismod sed.
+                  Mauris viverra, erat non sagittis gravida, elit dui mollis ante,
+                  sit amet eleifend purus ligula eget eros. Sed tincidunt quam vitae
+                  neque pharetra dignissim eget ut libero.
+                </p>
+                <div className="white-button">
+                  <a href="#">Book Now</a>
                 </div>
               </div>
-              <div className="col-md-6">
-                <div className="right-text">
-                  <h4>Voice over</h4>
-                  <p>
-                    Donec tristique feugiat lacus, at sollicitudin nunc euismod sed.
-                    Mauris viverra, erat non sagittis gravida, elit dui mollis ante,
-                    sit amet eleifend purus ligula eget eros. Sed tincidunt quam vitae
-                    neque pharetra dignissim eget ut libero.
-                  </p>
-                  <div className="white-button">
-                    <a href="#">Book Now</a>
-                  </div>
-                </div>
-              </div>
-              </div>
+            </div>
+          </div>
         </div>
 
 
@@ -168,14 +168,61 @@ export const Home = () => {
       <section className="section my-services" data-section="section2">
         <div className="container">
           <div className="section-heading">
-            <h2>What I’m good at?</h2>
+            <h2>Script Writing</h2>
             <div className="line-dec" />
-            <span>
-              Curabitur leo felis, rutrum vitae varius eu, malesuada a tortor.
-              Vestibulum congue leo et tellus aliquam, eu viverra nulla semper. Nullam
-              eu faucibus diam. Donec eget massa ante.
-            </span>
+
           </div>
+          <div className="flex-card">
+          <div className="card">
+          <img src="assets/images/yscripts.jpeg" alt="" />
+         
+  <div className="card__content">
+    <p className="card__title">YouTube Script</p>
+    <p className="card__description">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco.
+    </p>
+    <div className="white-button">
+                  <a href="#">Read More</a>
+                </div>
+    
+  </div>
+  
+</div>
+<div className="card">
+<img src="assets/images/yscripts.jpeg" alt="" />
+  <div className="card__content">
+    <p className="card__title">Prime Scripts</p>
+    <p className="card__description">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco.
+    </p>
+    <div className="white-button">
+                  <a href="#">Read More</a>
+                </div>
+  
+
+  </div>
+  </div>
+  <div className="card">
+  <img src="assets/images/yscripts.jpeg" alt="" />
+  <div className="card__content">
+    <p className="card__title">Story Writing</p>
+    <p className="card__description">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco.
+    </p>
+    <div className="white-button">
+                  <a href="#">Read More</a>
+                </div>
+
+  </div>
+  </div>
+
+ {/* 
           <div className="row">
             <div className="col-md-6">
               <div className="service-item">
@@ -220,7 +267,10 @@ export const Home = () => {
               </div>
             </div>
           </div>
+          */} 
         </div>
+        </div>
+        
       </section>
 
 
